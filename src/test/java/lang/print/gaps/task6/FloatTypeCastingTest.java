@@ -22,6 +22,6 @@ class FloatTypeCastingTest extends BaseIOTest {
 
         toTest.roundNumber(19.5F);
 
-        assertEquals("20\n", updateLineSpliterators(outContent.toString()));
+            assertEquals("20\n", updateLineSpliterators(outContent.toString()));
     }
 }

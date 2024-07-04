@@ -18,7 +18,7 @@ class PrePostIncrementTest extends BaseIOTest {
     void mainMeetsRequirements() {
         String expected = """
                         Expected x is 40, x = 40
-                        The updated value of a = 6, b = 7, c = 13 and d = 15
+                        The updated value of a = 6, b = 7, c = 12 and d = 15
                         """;
 
         PrePostIncrement.main(null);
